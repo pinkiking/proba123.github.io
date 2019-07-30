@@ -1,0 +1,70 @@
+body {
+    background: #022d3c;
+    overflow-x: hidden;
+    color: rgba(255,255,255,.9);
+}
+.container {
+    width: 85%;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+    color: rgba(255,255,255,.0); 
+}
+.main-header {
+    height: 400px;
+    background: url(http://parksadventure.com/wp-content/uploads/2017/10/header-image-1-2.png) no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative
+}
+.main-header .header-menu {
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    background: rgba(255,255,255,.05);
+}
+.main-header .header-menu .logo {
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+div {
+    display: block;
+}
+.main-header .header-menu .logo img {
+    height: 50px;
+}
+.main-header .header-menu .menu-with-items .menu-item {
+    margin-top: 10px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255,255,255,.85);
+    border-right: 1px solid rgba(255,255,255,.05);
+    text-transform: uppercase;
+    -moz-transition: .2s all;
+    -o-transition: .2s all;
+    -webkit-transition: .2s all;
+    transition: .2s all;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+.fa-angle-down:before {
+    content: "\f107";
+}
+.main-header .header-menu .menu-with-items {
+    display: inline-block;
+    height: 60px;
+    vertical-align: top;
+    margin-left: 20px;
+}
